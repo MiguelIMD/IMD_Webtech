@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    background-image: url(http://screencrush.com/442/files/2015/10/Avengers-Age-of-Ultron.jpg);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    padding-top: 20px;
+}
+.hero{
+    font-size: 2.2em;
+    }
+.superman p,.batman p{
+    color: white;
+    padding-left: 10px;
+    padding-top: 120px;
+}
+.wolverine p,.watchmen p,.hulk p,.loki p,.thor p,.avengers p,.spiderman p{
+    color: white;
+    padding-left: 10px;
+    padding-top: 140px;
+}
+.hero,.information p,.topic {
+    color: #cdab28;
+}
+.information{
+    display: flex;
+}
+.ftf{
+    padding-left: 150px; 
+    
+}
+.date{
+    padding-left: 850px;
+}
+
+.superman,.batman{
+    width:620px;
+    height: 200px;
+    background-size: cover;
+}
+.wolverine,.watchmen,.hulk,.loki{
+    width:300px;
+    height: 200px;
+    background-size: cover;
+}
+.thor,.avengers,.spiderman{
+    width:405px;
+    height: 200px;
+    background-size: cover;
+}
+
+.superman{
+    background-image: url(http://3ebd2a0c0ea48a333aea-1f531def8e8befb67be56667ce3edd11.r77.cf1.rackcdn.com/d86fa8f4b757e632f2331f867a5c80138406fe2d.jpg__940x420_q85_crop-smart_upscale.jpg);
+    background-size: cover;
+}
+.batman{
+    background-image: url(http://cdn.collider.com/wp-content/uploads/2015/04/batman-v-superman-trailer-screengrab-34.jpg);
+   }
+
+.wolverine{
+    background-image: url(http://cdn.hitfix.com/photos/6136468/Tom-Hardy-as-Wolverine.jpg);
+    }
+
+.watchmen{
+    background-image: url(http://static.businessinsider.com/image/560e9b3d9dd7cc18008bec8f/image.jpg);
+    }
+.hulk{background-image: url(http://blogs-images.forbes.com/markhughes/files/2015/06/Hulk-19-1940x1091.png);}
+.loki{background-image: url(http://peeltheorange.net/wp-content/uploads/2015/07/loki.jpeg);}
+.thor{background-image: url(http://cdn2.ubergizmo.com/wp-content/uploads/2015/10/thor-hammer.jpg);}
+.avengers{background-image: url(http://cdn2-www.comingsoon.net/assets/uploads/2015/03/avengersorder5.jpg);}
+.spiderman{background-image:url(http://www.theamazingspidermangame.com/etc/designs/atvi/amazing-spiderman-game/amazing-spiderman-game-2/images/features/img5.jpg);}
+
+#photos {
+    justify-content: center;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    -ms-flex-direction: column;
+    -webkit-flex-flow: row wrap;
+    display: flex;
+    margin-bottom: 50px;
+}
+#photos div {
+    
+    -ms-flex: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
